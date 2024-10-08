@@ -1,0 +1,26 @@
+<style>
+        body{
+    background-color: yellow;
+    }
+    .container{
+        background-color: white;
+        margin: auto;
+        padding: 20px;
+        width: 35%;
+    }
+    button{
+        width: 170px;
+        color:white;
+        height: 40px;
+        border: 0px;
+    }
+    u{
+        color: rgb(17, 184, 139);
+    }
+    .sign{
+        background-color: grey;
+        justify-content: center;
+    }
+
+    </style>
+
