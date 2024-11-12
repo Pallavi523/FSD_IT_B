@@ -43,3 +43,19 @@ const ah=num.filter((n)=>(n%2==0)).map((n)=>(n*3));
 console.log(ah);
 const c=num.filter((n)=>(n%2==0)).map((n)=>(n*3)).reduce((n,s)=>(n+s));
 console.log(c)
+
+//Promise
+const mypromise = new Promise(
+    (resolve,reject)=>{
+        //resolve();
+        reject("network error")
+    }
+);
+
+mypromise.then(()=>{
+console.log("ALL SET!");
+}).catch((err)=>{
+    console.log("Error is ",err);
+}).finally(()=>{
+    console.log("Executed finally")
+});
